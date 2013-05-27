@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>jsRoguelike</title>
+		<script type="text/javascript" src="core/Game.js"></script>
+		<script type="text/javascript" src="core/InputManager.js"></script>
+		<script type="text/javascript" src="map/MapGenerator.js"></script>
+		<script type="text/javascript" src="map/Tile.js"></script>
+		<script type="text/javascript" src="entity/Player.js"></script>
+		<script type="text/javascript" src="core/GlobalUtil.js"></script>
+		<script type="text/javascript" src="map/Coord.js"></script>
+		<script type="text/javascript" src="map/Room.js"></script>
+		<script type="text/javascript" src="core/RayCaster.js"></script>
+	</head>
+	<body style="text-align:center;background-color:#000;margin:0;padding:0;">
+		<p style="margin-top:5%;font-family:sans-serif;">
+			jsRogue
+		</p>
+		<div style="margin-top:5%;border-left:none;border-right:none;background-color:#000;">
+			<canvas id="canvas" width="800" height="600"></canvas>
+		</div>
+		<script type="text/javascript">
+			new Game().init();
+		</script>
+		
+	</body>
+</html>
